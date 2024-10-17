@@ -1,0 +1,2381 @@
+body{
+    background-color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    box-sizing: border-box;
+    background-color: rgb(182, 69, 4);
+    top: 0;
+    z-index: 2;
+    height: 150px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: 120px;
+   margin-top: -18;
+}
+
+header p{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+  
+
+nav{
+    position: fixed;
+    background-color: #620C0CFF;
+    width: 100%;
+    left: 0;
+    top: 150px;
+    height: 80;
+    z-index: 2;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    padding: 17px;
+}
+
+nav ul{
+    margin-left:50;
+    position: relative;
+    left: -60;
+    top: -50;
+ 
+}
+nav li{
+    display: inline-block;
+    padding: 5;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+}
+  .search{
+    width: 100px;
+    text-align: center;
+}
+nav .cart{
+    width: 40%;
+    margin-top: 3px;
+    margin-left: -40;
+} 
+
+.slide-1{
+    width: 100%;
+    margin-top: 260;
+    box-sizing: border-box;
+}
+
+.Dresses h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 280;
+    margin-left: 120px;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+.Dresses div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+
+.Dresses .img-1{
+width: 200px;
+}
+
+.Dresses .wedding-gown{
+    width: 200px;
+}
+
+.Dresses .armless-dress{
+    width: 200px;
+}
+
+.Dresses .denim-armless{
+    width: 200px;
+}
+
+.Dresses a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 4px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+
+}
+
+
+ .tops h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 400;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+   }
+
+   .tops div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+   .tops .ankara-set{
+    width: 200px;
+   }
+
+   .tops .long-sleeve{
+    width: 200px;
+   }
+
+   .tops .lace{
+    width: 200px;
+   }
+
+   .tops .tie-neck-top{
+    width: 200px;
+   }
+
+ .tops a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 3px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+ }
+
+ .Featured-1 h2{
+    font-family: arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 290;
+    position: relative;
+    top: 50;
+ }
+ .Featured-1 p:nth-child(3){
+    margin-left: 300px;
+    position: relative;
+    top: -230;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-transform: uppercase;
+ }
+
+ .Featured-1 p:nth-child(4){
+    margin-left: 300px;
+    position: relative;
+    top: -120;
+ }
+
+ .Featured-1 p:nth-child(5){
+    margin-left: 300px;
+    width: 40%;
+    position: relative;
+    top: -270;
+    font-weight: bold;
+    font-family: monospace;
+ }
+
+.Featured-1 button{
+    margin-left: 300px;
+    position: relative;
+    top: -230;
+    background-color: #620C0CFF;
+    color: white;
+    border-radius: 4px;
+    font-size: large;
+ }
+
+
+ .product-of-the-week{
+    margin: 0;
+    padding: 15;
+ }
+
+
+ .Outerwear h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 420;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -180;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+ }
+
+ .large-coat{
+    width: 200px;
+ }
+
+ .long-coat{
+    width: 200px;
+ }
+
+ .double-brested-coat{
+    width: 200px;
+ }
+
+ .short-ship-skin-coat{
+    width: 200px;
+ }
+
+ .Outerwear div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+ }  
+
+ .Outerwear a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 3px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+ }
+ 
+.bottoms div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+ }  
+
+
+ .bottoms a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 3px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+ }
+
+.bottoms img{
+    width: 200px;
+}
+
+.bottoms h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 460;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+.featured-2{
+    padding: 15px;
+    margin: top 30px;;
+}
+
+.promotion-2 h2{
+    font-family: arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 290;
+    position: relative;
+    top: 50;
+}
+.promotion-2 p:nth-child(3){
+    margin-left: 290px;
+    position: relative;
+    top: -218px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.promotion-2 p:nth-child(4){
+    margin-left: 290px;
+    position: relative;
+    top: -85;
+}
+
+.promotion-2 p:nth-child(5){
+    margin-left:290px;
+    width: 40%;
+    position: relative;
+    top: -260;
+    font-weight: bold;
+    font-family: monospace;
+}
+.promotion-2 button{
+    margin-left: 290px;
+    position: relative;
+    top: -240;
+    background-color: #620C0CFF;
+    color: white;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.activewear h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 467;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -180;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+.activewear img{
+    width: 200px;
+}
+
+.activewear div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.activewear a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 3px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+}
+
+
+.accessories h2{
+    font: 1em sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    color: white;
+    background-color: #620C0CFF;
+    border-radius: 3px;
+    width: 435;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+.accessories img{
+    width: 200px;
+}
+
+.accessories div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.accessories a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(168, 100, 61);
+    border-radius: 3px;
+    margin-left: 240px;
+    background-color: rgb(168, 100, 61);
+}
+
+.Featured-3{
+    width: 200px;
+    margin: 0;
+    padding: 15px;
+}
+
+.promotion-3 h2{
+    font-family: arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 290;
+    position: relative;
+    top: 50;
+}
+
+.promotion-3 p:nth-child(3){
+    margin-left: 300px;
+    position: relative;
+    top: -320;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-transform: uppercase;
+ }
+
+ .promotion-3 p:nth-child(4){
+    margin-left: 300px;
+    position: relative;
+    top: -200;
+ }
+
+ .promotion-3 p:nth-child(5){
+    margin-left: 300px;
+    width: 40%;
+    position: relative;
+    top: -360;
+    font-weight: bold;
+    font-family: monospace;
+ }
+
+.promotion-3 button{
+    margin-left: 300px;
+    position: relative;
+    top: -330;
+    background-color: #620C0CFF;
+    color: white;
+    border-radius: 4px;
+    font-size: large;
+ }
+
+ .banner-1{
+    position: relative;
+    top: -200;
+ }
+   
+
+ .slide-2{
+    width: 100%;
+ }
+
+.story{
+    position: relative;
+    top: -100;
+}
+
+.story h3{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: arial;
+    border: 2px solid black;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    border-radius: 3px;
+    width: 100;
+    background-color: #620C0CFF;
+    color: aliceblue;
+    margin-left: 220px;
+}
+.story article{
+    line-height: 30px;
+    width: 500px;
+    text-align: center;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+footer{
+   background-color: rgb(168, 100, 61);
+   text-align: center;
+   box-sizing: border-box;
+   position: relative;
+   top: 15px;
+}
+
+footer h4{
+    font-family: sans-serif;
+    font-size: 14;
+    position: relative;
+    top: 10px;
+}
+footer input{
+    height: 27;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+footer ::placeholder{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+footer button{
+    font-size: large;
+    background-color: #620C0CFF;
+    color: white;
+    border: 1px bold black;
+    border-radius: 3px;
+}
+
+footer p{
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    top: -6;
+}
+
+footer a{
+    font-size: large;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: -15;
+    border: 2px solid black;
+    border-radius: 3px;
+    max-width: 1000;
+    background-color: aqua;
+    background: -webkit-linear-gradient(top, #620C0CFF 0%, rgb(168, 100, 61) 100%);
+    background: -moz-linear-gradient(top, #620C0CFF 0%, rgb(168, 100, 61) 100%);
+    background: linear-gradient(top, #620C0CFF 0%, rgb(168, 100, 61) 100%);
+}
+
+/* ending of index.html */
+
+
+
+
+/* remaining images */
+.yoga-leggings{
+    width: 200px;
+}
+.Camelflage-leggings{
+    width: 200px;
+}
+.african-yoga-set{
+    width: 200px;
+}
+
+.retro-bell-bottom{
+    width: 200px;
+}
+.plain-trouser{
+    width: 200px;
+}
+.retro-flat-bell-bottom{
+    width: 200px;
+}
+.wide-leg-pants{
+    width: 200px;
+}
+.belted-short-denim-dress{
+    width: 200px;
+}
+
+.oversized-coat{
+    width: 200px;
+}
+
+.long-belted-coat{
+    width: 200px;
+}
+
+.waffin-loose-satin-blouse{
+    width: 200px;
+}
+
+.belted-shirt-dress{
+    width: 200px;
+}
+
+.active-long-bike-short{
+    width: 200px;
+}
+
+/* ending of  remaining images */
+
+
+
+
+
+/* all product collection */
+
+ .p-one{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 200;
+    margin-top: 10;
+ }
+
+ .p-one:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+
+ }
+
+ .p-two{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 200;
+    margin-top: 10;
+ }
+
+.p-two:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+.p-three{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 200;
+    margin-top: 10;
+}
+
+.p-three:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+
+.p-four{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 360;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+
+
+.p-four:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+
+
+.p-five{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 200;
+    margin-top: 10;
+}
+
+
+
+.p-five:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+
+.p-six{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 258;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 150;
+    margin-top: 10;
+}
+
+
+
+.p-six:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+.catalogue section div p:nth-child(2){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+.catalogue section div p:nth-child(4){
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.catalogue h1{
+    font-size: 40;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 430;
+    background-color: #620C0CFF;
+    color: white;
+    margin-left: 70;
+    margin-top: 24;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+.catalogue h1:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+
+.l-home a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 100px;
+    background-color: #620C0CFF;
+    position: relative;
+    top: 12;
+}
+
+.l-home a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+.l-top a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: -100px;
+    background-color: #620C0CFF;
+    position: relative;
+    top: -15;
+}
+
+.l-top a:hover{
+    background-color: #620C0CFF;
+    color: white;
+}
+    
+    
+/* end of all product collection  */
+
+
+
+
+
+
+/* contact */
+
+.about-us{
+    line-height: 1.3;
+    width: 80%;
+    text-align: center;
+    margin-left: 44px;
+    font-family: sans-serif;
+    margin-top: 23px;
+}
+
+
+.info p{
+    width: 90%;
+    margin-left: 34;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+.info form{
+    text-align: center;
+
+}
+
+.info input{
+position: relative;
+margin-left: -290px;
+}
+
+.info input::placeholder{
+    text-align: center;
+    font-size: 16;
+    text-transform: capitalize;
+}
+
+.info textarea{
+position: relative;
+top: -90;
+margin-top: -20;
+margin-left: 230;
+}
+
+.info button{
+    font-size: large;
+    background-color: #620C0CFF;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: relative;
+    top: -60;
+    margin-left: 140;
+}
+
+.info{
+    position: relative;
+    top: 50;
+}
+
+
+.a-logo{
+    width: 100;
+    margin-left: 200;
+}
+
+
+
+/* end of contact*/
+
+
+
+
+/* pseudo for index.html */
+
+nav a:hover{
+    color:darkturquoise
+}
+nav a:visited{
+    color: rgb(168, 100, 61);
+}
+
+ .Dresses button:hover{
+  background-color: rgb(168, 100, 61);
+}
+
+.Dresses a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+.tops button:hover{
+    background-color: rgb(168, 100, 61);
+}
+ 
+.tops a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+
+.Featured-1 button:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+}
+
+.Outerwear button:hover{
+    background-color: rgb(168, 100, 61);
+}
+.Outerwear a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+.bottoms button:hover{
+    background-color: rgb(168, 100, 61);
+}
+
+.bottoms a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+.promotion-2 button:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+}
+
+.activewear button:hover{
+    background-color: rgb(168, 100, 61);
+}
+
+.activewear a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
+
+.accessories button:hover{
+    background-color: rgb(168, 100, 61);
+}
+
+.accessories a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;  
+}
+
+.promotion-3 button:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;   
+}
+
+.story h3:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
+footer button:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+}
+
+footer a:hover{
+    background: -webkit-linear-gradient(bottom,  #620C0CFF 0%, rgb(168, 100, 61) 100%);
+    background: -moz-linear-gradient(bottom,  #620C0CFF 0%, rgb(168, 100, 61) 100%);
+    background: linear-gradient(bottom,  #620C0CFF 0%, rgb(168, 100, 61) 100%);
+}
+
+footer input:focus{
+    border: 4px dashed #4B4B4B;
+    outline: none;
+  }
+
+/* end of psuedo for index.html */
+
+
+/* Responsve design for laptop view */
+
+@media screen and (max-width: 1400px){
+
+    header p{
+        font-size: larger;
+     }   
+
+     nav ul{
+        position: relative;
+        top: -100;
+     }
+    
+    nav li{
+        padding: 80px;
+    }
+
+
+    .Dresses h2{
+        font-weight: bolder;
+        width: 280;
+        margin-left: 550px;
+    }
+    
+    .Dresses div{
+        padding: 65px;  
+    }
+
+   .Dresses a{
+    margin-left: 600px;
+   }
+
+
+   .tops h2{
+    font-weight: bolder;
+    width: 400;
+    margin-left: 500px;
+}
+
+.tops div{
+    padding: 65px;  
+}
+
+.tops a{
+margin-left: 600px;
+}
+
+.Featured-1 h2{
+    font-family: arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 290;
+    position: relative;
+    top: 60;
+ }
+ .Featured-1 p:nth-child(3){
+    margin-left: 290px;
+    position: relative;
+    top: -220;
+ }
+
+ .Featured-1 p:nth-child(4){
+    margin-left: 290;
+    position: relative;
+    top: -170;
+ }
+
+ .Featured-1 p:nth-child(5){
+    margin-left: 290px;
+    width: 70%;
+    position: relative;
+    top: -250;
+    font-weight: bold;
+    font-family: monospace;
+ }
+
+.Featured-1 button{
+    margin-left: 290px;
+    position: relative;
+    top: -220;
+    font-size: large;
+ }
+
+
+ .product-of-the-week{
+    margin: 0;
+    padding: 15;
+ }
+
+
+ .Outerwear h2{
+    font-weight: bolder;
+    width: 420;
+    margin-left: 500px;
+}
+
+.Outerwear div{
+    padding: 65px;  
+}
+
+.Outerwear a{
+margin-left: 600px;
+}
+
+
+.bottoms h2{
+    font-weight: bolder;
+    width: 460;
+    margin-left: 470px;
+}
+
+.bottoms div{
+    padding: 65px;  
+}
+
+.bottoms a{
+margin-left: 600px;
+}
+
+
+.promotion-2 h2{
+    margin-left: 290;
+    top: 60;
+}
+
+.promotion-2 p:nth-child(4){
+    top: -175;
+}
+
+ .promotion-2 p:nth-child(5){
+    width: 70%;
+} 
+.promotion-2 button{
+    top: -220;
+    font-size: large;
+}
+
+
+.activewear h2{
+    font-weight: bolder;
+    width: 467;
+    margin-left: 500px;
+}
+
+.activewear div{
+    padding: 65px;  
+}
+
+.activewear a{
+margin-left: 600px;
+}
+
+
+.accessories h2{
+    font-weight: bolder;
+    width: 435;
+    margin-left: 500px;
+}
+
+.accessories div{
+    padding: 65px;  
+}
+
+.accessories a{
+margin-left: 600px;
+}
+
+
+
+
+.Featured-3{
+    width: 200px;
+    margin: 0;
+    padding: 15px;
+}
+
+.promotion-3 h2{
+    top: 70;
+}
+
+.promotion-3 p:nth-child(3){
+     margin-left: 290px;
+    top: -300;
+ }
+
+ .promotion-3 p:nth-child(4){
+     margin-left: 290px;
+    top: -260;
+ }
+
+ .promotion-3 p:nth-child(5){
+    margin-left: 320px;
+    width: 70%;
+    top: -340;
+ }
+
+.promotion-3 button{
+    margin-left: 290px;
+    top: -300;
+ }
+
+
+ .banner-1{
+    position: relative;
+    top: -120;
+ }
+   
+
+ .story{
+    top: -50;
+}
+
+.story h3{
+    margin-left: 620px;
+}
+.story article{
+    width: 1000px;
+    margin-left: 185px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    top: 15px;
+ }
+ 
+ footer h4{
+     top: 10px;
+     font-size: x-large;
+ }
+ footer input{
+     height: 27;
+ }
+ 
+ footer ::placeholder{
+     text-transform: capitalize;
+     text-align: center;
+     font-size: 13px;
+     font-weight: bold;
+ }
+ 
+ footer p{
+     font-weight: bold;
+     font-size: large;
+     font-family: sans-serif;
+     top: -6;
+ }
+ 
+
+
+ .catalogue div p:nth-child(5){
+    margin-left: 12px;
+}
+
+
+.catalogue h1{
+    margin-left: 320;
+}
+
+.p-one{
+    margin-left: 440;
+}
+
+.p-two{
+    margin-left: 440;
+}
+
+
+.p-three{
+    margin-left: 440;
+}
+
+.p-four{
+    margin-left: 420;
+}
+
+
+.p-five{
+    margin-left: 440;
+}
+
+
+.p-six{
+    margin-left: 440;
+}
+
+
+
+.a-logo{
+    margin-left: 600;
+}
+
+.about-us{
+    margin-left: 50;
+    width: 90%;
+}
+
+.info{
+    font-size: large;
+    width: 100%;
+}
+
+.l-top{
+    visibility: hidden;
+}
+
+.l-home{
+    margin-left: -120px;
+}
+
+
+}
+
+
+
+/* Responsve design for tablet view */
+
+ @media screen and (max-width: 738px) {
+
+
+
+   
+    header p{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: small;
+      }
+        
+      .logo{
+
+      margin-top: -3;
+
+      }
+
+      nav ul{
+        position: relative;
+        left: -30;
+        top: -30;
+     }
+    
+    nav li{
+        padding: 20px;
+    }
+
+
+    .dresses h2{
+        margin-left: 200;
+      }
+
+      .dresses div{
+        padding: 75px;
+      }
+
+      .tops h2{
+        margin-left: 150px;
+      }
+      
+    .dresses a{
+        margin-left: 300;
+    }
+
+.accessories a{
+    margin-left: 300;
+}
+
+.activewear a{
+    margin-left: 300;
+}
+
+
+.bottoms a{
+    margin-left: 300;
+}
+
+.tops a{
+    margin-left: 300;
+}
+
+
+.outerwear a{
+    margin-left: 300;
+}
+
+.Featured-1 button{
+    font-size: small;
+    width: 69;
+    top: -240;
+ }
+
+
+.Featured-1 h2{
+top: 70;
+}
+
+ .Featured-1 p:nth-child(3){
+    margin-left: 290px;
+    top: -210;
+ }
+
+ .Featured-1 p:nth-child(4){
+    top: -140;
+ }
+
+ .Featured-1 p:nth-child(5){
+    width: 40%;
+    top: -255;
+ }
+
+
+ .outerwear h2{
+    margin-left: 150;
+    }
+    
+    .outerwear div{
+        padding: 75px;
+      }
+    
+    
+    .bottoms h2{
+    margin-left: 120;
+    }
+    
+    .tops div{
+        padding: 75;
+    }
+    
+    .bottoms div{
+        padding: 75px;
+      }
+    
+
+      .promotion-2 p:nth-child(4){
+        top: -125;
+    }
+    
+    
+    
+    .promotion-2 h2{
+        top: 60;
+    }
+    
+    .promotion-2 p:nth-child(5){
+        width: 50%;
+    }
+    
+
+
+    .activewear h2{
+        margin-left: 130;
+    }
+    
+    
+    .activewear div{
+        padding: 60px;
+    }
+    
+    
+    .accessories h2{
+        margin-left: 130;
+    }
+    
+    
+    .accessories div{
+        padding: 50;
+    }
+
+
+     .promotion-3 h2{
+        top: 80;
+    }
+    
+    .promotion-3 p:nth-child(3){
+        margin-left: 280px;
+        top: -280;
+     }
+    
+     .promotion-3 p:nth-child(4){
+        margin-left: 280px;
+        top: -208;
+     }
+    
+     .promotion-3 p:nth-child(5){
+        margin-left: 280px;
+        width: 58%;
+        top: -320;
+     }
+    
+    .promotion-3 button{
+        margin-left: 280px;
+        top: -290;
+        
+     }
+    
+
+
+     .banner-1{
+        position: relative;
+        top: -50;
+     }
+       
+    
+     .slide-2{
+        width: 100%;
+     }
+    
+    .story{
+        position: relative;
+        top: 10;
+    }
+    
+    .story h3{
+        width: 100;
+        margin-left: 290px;
+    }
+    .story article{
+        line-height: 30px;
+        width: 550px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    footer h4{
+        font-size: large;
+    }
+    
+    .a-logo{
+     margin-left: 290px;
+    }
+    
+    .about-us{
+        line-height: 2;
+    }
+    
+    .catalogue h1{
+              margin-left: 140; 
+    
+    }
+    
+    .p-four{
+        margin-left: 140px;
+    }
+    
+    .p-five{
+        margin-left: 220px;
+    
+    }
+    
+    .p-six{
+        margin-left: 190px;
+    
+    }
+    
+    .p-one{
+        margin-left: 220px;
+    
+    }
+    
+    .p-two{
+        margin-left: 220px;
+    
+    }
+    
+    .p-three{
+        margin-left: 220px;
+    
+    }
+    
+    
+    }
+
+
+/* Responsve design for mobile view */
+
+
+@media screen and (max-width: 355px) {
+
+
+
+    nav ul{
+        position: relative;
+        left: -50;
+        top: -20;
+     }
+    nav li{
+        padding: .5;
+        font-size: x-small;
+    }
+
+
+    .Dresses h2{
+        font: 0.7em sans-serif;
+        font-weight: bolder;
+        width: 200;
+        margin-left: 60px;
+    }
+    
+    .Dresses div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+
+    .Dresses a{
+        font-size: x-large;
+        margin-left: 130px;
+    
+    }
+
+
+    .tops h2{
+        font: 0.7em sans-serif;
+        font-weight: bolder;
+        width: 284;
+        margin-left: 19px;
+        margin-top: 40px;
+    }
+    
+    .tops div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+
+    .tops a{
+        font-size: x-large;
+        margin-left: 130px;
+    
+    }   
+
+
+.Featured-1 h2{
+    margin-left: 70;
+    top: 230;
+ }
+ .Featured-1 p:nth-child(3){
+    margin-left: 70px;
+    top: -50;
+    font-size: small;
+ }
+
+ .Featured-1 p:nth-child(4){
+    margin-left: 70px;
+    position: relative;
+    top: -60;
+ }
+
+ .Featured-1 p:nth-child(5){
+    margin-left: 70px;
+    width: 50%;
+    top: -70;
+    font-weight: bold;
+    font-family: monospace;
+ }
+
+.Featured-1 button{
+    margin-left: 70px;
+    top: -70;
+    font-size: small;
+    width: 69;
+ }
+
+
+ .product-of-the-week{
+    margin: 0;
+    padding: 15;
+    position: relative;
+    top: -70;
+    margin-left: 36px;
+ }
+
+
+
+
+ .outerwear h2{
+    font: 0.7em sans-serif;
+    font-weight: bolder;
+    width: 290;
+    margin-left: 19px;
+    margin-top: 40px;
+}
+
+.outerwear div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.outerwear a{
+    font-size: x-large;
+    margin-left: 130px;
+
+}  
+
+
+.bottoms h2{
+    font: 0.7em sans-serif;
+    font-weight: bolder;
+    width: 325;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.bottoms div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.bottoms a{
+    font-size: x-large;
+    margin-left: 130px;
+
+}  
+
+
+
+.featured-2{
+    padding: 15px;
+    margin: top 30px;;
+}
+
+.promotion-2 h2{
+    margin-left: 20;
+    top: 300;
+}
+.promotion-2 p:nth-child(3){
+    margin-left: 20px;
+    top: 15px;
+    font-size: small;
+}
+.promotion-2 p:nth-child(4){
+    margin-left: 20px;
+    top: 170;
+}
+
+.promotion-2 p:nth-child(5){
+    margin-left:20px;
+    width: 50%;
+    top: -30;
+}
+.promotion-2 button{
+    margin-left: 20px;
+    top: -4;
+    font-size: large;
+}
+
+
+.activewear{
+    position: relative;
+margin-top: 230;
+}
+
+
+.activewear h2{
+    font: 0.65em sans-serif;
+    font-weight: bolder;
+    width: 300;
+    margin-left: 10px;
+    margin-top: -180;
+}
+
+.activewear img{
+    width: 200px;
+}
+
+.activewear div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.activewear a{
+    font-size: x-large;
+    margin-left: 130px;
+}
+
+
+
+
+
+.accessories h2{
+    font: 0.7em sans-serif;
+    width: 284;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.accessories img{
+    width: 200px;
+}
+
+.accessories div{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 30px;  
+}
+
+.accessories a{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 130px;
+}
+
+
+
+
+.Featured-3{
+    width: 200px;
+    margin: 0;
+    padding: 15px;
+}
+
+.promotion-3 h2{
+    font-weight: bolder;
+    margin-left: 20;
+    top: 390;
+}
+
+.promotion-3 p:nth-child(3){
+    margin-left: 20px;
+    top: 16;
+    font-size: small;
+    font-weight: bolder;
+ }
+
+ .promotion-3 p:nth-child(4){
+    margin-left: 20px;
+    top: 158;
+ }
+
+ .promotion-3 p:nth-child(5){
+    margin-left: 20px;
+    width: 50%;
+    top: -30;
+    font-weight: bold;
+ }
+
+.promotion-3 button{
+    margin-left: 20px;
+    top: -5;
+    color: white;
+    font-size: large;
+ }
+
+
+
+ .banner-1{
+    position: relative;
+    top: 15;
+ }
+   
+
+ .slide-2{
+    width: 100%;
+ }
+
+.story{
+    position: relative;
+    top: 15;
+}
+
+.story h3{
+    width: 100;
+    margin-left: 110px;
+}
+.story article{
+    line-height: 30px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+footer h4{
+    font-size: 8.6;
+    top: 8px;
+}
+footer input{
+    height: 27;
+}
+
+footer button{
+    font-size: large;
+}
+
+footer p{
+    font-weight: bolder;
+    font-size: small;
+    top: -6;
+}
+
+
+.p-one{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+ }
+
+
+
+ .p-two{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+ }
+
+
+
+
+.p-three{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+
+
+
+
+
+
+.p-four{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+
+
+
+
+
+
+.p-five{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+
+
+
+
+
+
+.p-six{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+.dresses div p:nth-child(4){
+    margin-left: -27;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+    
+}
+
+.tops div p:nth-last-child(2){
+    margin-left: 0;
+    text-align: left;
+    color: black;
+    font-size: xx-small;
+    font-family: montserrat;
+    font-weight: bold;
+    line-height: 2;
+    padding: 0.5;
+}
+
+.outerwear div p:nth-child(4){
+    margin-left: -5;
+    text-align: left;
+    color: black;
+    font-size: xx-small;
+    font-family: montserrat;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+.activewear div p:nth-child(4){
+    margin-left: -5;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+}
+
+
+.accessories div p:nth-child(4){
+        margin-left: -10;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+    }
+
+.a-body{
+    position: relative;
+    top: -170;
+    box-sizing: border-box;
+    padding: -4;
+}
+
+
+
+
+
+.bottoms div p:nth-child(4){
+    margin-left: -5;
+    color: black;
+    font-size: x-small;
+    line-height: 2;
+}
+
+.catalogue section div p:nth-child(2){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+.catalogue section div p:nth-child(4){
+    margin-left: 2;
+    text-align: left;
+    color: black;
+    font-size: xx-small;
+    font-family: montserrat;
+    font-weight: bold;
+    line-height: 2;
+}
+.catalogue section div{
+    padding: 5;
+}
+
+.catalogue h1{
+    font-size: 40;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 430;
+    background-color: #620C0CFF;
+    color: white;
+    margin-left: 70;
+    margin-top: 24;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+}
+
+#t-divs div{
+    padding: 10;
+}
+#a-divs div{
+    padding: 10;
+}
+#b-divs div{
+    padding: 10;
+}
+#ac-divs div{
+    padding: 8;
+}
+#d-divs div{
+    padding: 10;
+}
+#-divs div{
+    padding: 10;
+}
+
+
+
+.l-home a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 100px;
+    background-color: #620C0CFF;
+    position: relative;
+    top: 12;
+}
+
+
+
+.l-top a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: -100px;
+    background-color: #620C0CFF;
+    position: relative;
+    top: -15;
+}
+
+
+
+
+
+.catalogue h1{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #620C0CFF;
+    color: white;
+    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    box-sizing: border-box;margin-left: 80;
+    margin-top: 10;
+}
+
+.catalogue div p:nth-child(4){
+    margin-left: -27;
+    text-align: left;
+    color: black;
+    font-family: montserrat;
+    font-weight: bold;
+    line-height: 2;
+    width: 70%;
+    font-size: xx-small;
+}
+
+.a-logo{
+    margin-left: 120;
+}
+
+.about-us{
+    margin-left: 10;
+    width: 95%;
+    line-height: 2;
+}
+
+.info p {
+   top: -4;
+   margin-left: 19;
+}
+
+
+.info input{
+    margin-left: -120;
+}
+
+.info form textarea{
+   margin-left: 190;
+   height: 100px;
+   width: 100px;
+   top: -100;
+}
+
+.info button{
+    margin-left: 170;
+    top: -90;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
