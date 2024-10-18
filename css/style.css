@@ -45,7 +45,7 @@ nav ul{
     margin-left:50;
     position: relative;
     left: -60;
-    top: -50;
+    top: -20;
  
 }
 nav li{
@@ -513,8 +513,8 @@ width: 200px;
 }
 
 footer{
-   background-color: rgb(168, 100, 61);
    text-align: center;
+   background-color:   rgb(182, 69, 4);
    box-sizing: border-box;
    position: relative;
    top: 15px;
@@ -1029,7 +1029,6 @@ footer input:focus{
 /* end of psuedo for index.html */
 
 
-/* Responsve design for laptop view */
 
 @media screen and (max-width: 1400px){
 
@@ -1220,7 +1219,7 @@ margin-left: 600px;
  }
 
  .promotion-3 p:nth-child(5){
-    margin-left: 320px;
+    margin-left: 290px;
     width: 70%;
     top: -340;
  }
@@ -1346,9 +1345,8 @@ footer{
 
 
 
-/* Responsve design for tablet view */
 
- @media screen and (max-width: 738px) {
+@media screen and (max-width: 738px) {
 
 
 
@@ -1600,330 +1598,146 @@ top: 70;
     }
     
     
+    
+    
     }
 
 
-/* Responsve design for mobile view */
 
-
-@media screen and (max-width: 355px) {
-
+@media screen and (max-width: 583px) {
 
 
     nav ul{
         position: relative;
-        left: -50;
-        top: -20;
+        left: -100;
+        top: -30;
      }
+    
     nav li{
-        padding: .5;
-        font-size: x-small;
+        padding: 20px;
+        font-size: small;
     }
 
+    .dresses h2{
+        margin-left: 120;
+      }
 
-    .Dresses h2{
-        font: 0.7em sans-serif;
-        font-weight: bolder;
-        width: 200;
-        margin-left: 60px;
+      .dresses div{
+        padding: 75px;
+      }
+      
+    .dresses a{
+        margin-left: 220;
     }
-    
-    .Dresses div{
-        display: inline-block;
-        white-space: nowrap;
-        padding: 30px;  
-    }
-
-    .Dresses a{
-        font-size: x-large;
-        margin-left: 130px;
-    
-    }
-
 
     .tops h2{
-        font: 0.7em sans-serif;
-        font-weight: bolder;
-        width: 284;
-        margin-left: 19px;
-        margin-top: 40px;
+        margin-left:80px;
+      }
+
+      .tops a{
+        margin-left: 230;
     }
-    
-    .tops div{
-        display: inline-block;
-        white-space: nowrap;
-        padding: 30px;  
-    }
+        
+         .Featured-1 p:nth-child(4){
+            top: -120;
+         }
+        
+         .outerwear h2{
+            margin-left: 70;
+          }
 
-    .tops a{
-        font-size: x-large;
-        margin-left: 130px;
-    
-    }   
+          .outerwear a{
+            margin-left: 230;
+        }
 
+        .bottoms h2{
+            margin-left:50px;
+          }
 
-.Featured-1 h2{
-    margin-left: 70;
-    top: 230;
- }
- .Featured-1 p:nth-child(3){
-    margin-left: 70px;
-    top: -50;
-    font-size: small;
- }
+          .bottoms a{
+            margin-left: 230;
 
- .Featured-1 p:nth-child(4){
-    margin-left: 70px;
-    position: relative;
-    top: -60;
- }
+          }
 
- .Featured-1 p:nth-child(5){
-    margin-left: 70px;
-    width: 50%;
-    top: -70;
-    font-weight: bold;
-    font-family: monospace;
- }
+          .promotion-2 p:nth-child(3){
+            position: relative;
+            left: -10;
+        }   
+          .promotion-2 p:nth-child(5){
+            position: relative;
+            left: -10;
+        } 
 
-.Featured-1 button{
-    margin-left: 70px;
-    top: -70;
-    font-size: small;
-    width: 69;
- }
+        .promotion-2 p:nth-child(4){
+            top: -115;
+            position: relative;
+            left: -10;
+        }
 
-
- .product-of-the-week{
-    margin: 0;
-    padding: 15;
-    position: relative;
-    top: -70;
-    margin-left: 36px;
- }
+          .promotion-2 button{
+            top: -250;
+            position: relative;
+            left: -10;
+            
+         }
 
 
+         .activewear h2{
+            margin-left: 50;
+          } 
 
 
- .outerwear h2{
-    font: 0.7em sans-serif;
-    font-weight: bolder;
-    width: 290;
-    margin-left: 19px;
-    margin-top: 40px;
-}
-
-.outerwear div{
-    display: inline-block;
-    white-space: nowrap;
-    padding: 30px;  
-}
-
-.outerwear a{
-    font-size: x-large;
-    margin-left: 130px;
-
-}  
+          .accessories h2{
+            margin-left:50px;
+          }
 
 
-.bottoms h2{
-    font: 0.7em sans-serif;
-    font-weight: bolder;
-    width: 325;
-    margin-left: 5px;
-    margin-top: 40px;
-}
+          .accessories a{
+            margin-left: 230;
 
-.bottoms div{
-    display: inline-block;
-    white-space: nowrap;
-    padding: 30px;  
-}
+          }
 
-.bottoms a{
-    font-size: x-large;
-    margin-left: 130px;
+          
+          .promotion-3 p:nth-child(3){
+            margin-left: 260px;
+           top: -290;
+        }
+       
+        .promotion-3 p:nth-child(4){
+            margin-left: 260px;
+           top: -200;
+        }
+       
+        .promotion-3 p:nth-child(5){
+           margin-left: 260px;
+           width: 50%;
+           top: -340;
+        }
+       
+       .promotion-3 button{
+           margin-left: 260px;
+           top: -310;
+        }
+       
 
-}  
-
-
-
-.featured-2{
-    padding: 15px;
-    margin: top 30px;;
-}
-
-.promotion-2 h2{
-    margin-left: 20;
-    top: 300;
-}
-.promotion-2 p:nth-child(3){
-    margin-left: 20px;
-    top: 15px;
-    font-size: small;
-}
-.promotion-2 p:nth-child(4){
-    margin-left: 20px;
-    top: 170;
-}
-
-.promotion-2 p:nth-child(5){
-    margin-left:20px;
-    width: 50%;
-    top: -30;
-}
-.promotion-2 button{
-    margin-left: 20px;
-    top: -4;
-    font-size: large;
-}
-
-
-.activewear{
-    position: relative;
-margin-top: 230;
-}
-
-
-.activewear h2{
-    font: 0.65em sans-serif;
-    font-weight: bolder;
-    width: 300;
-    margin-left: 10px;
-    margin-top: -180;
-}
-
-.activewear img{
-    width: 200px;
-}
-
-.activewear div{
-    display: inline-block;
-    white-space: nowrap;
-    padding: 30px;  
-}
-
-.activewear a{
-    font-size: x-large;
-    margin-left: 130px;
-}
+        .story h3{
+            margin-left: 210px;
+        }
+        .story article{
+            line-height: 30px;
+            width: 500px;
+            margin-left: 20px;
+            font-family: sans-serif;            
+        }
 
 
 
 
 
-.accessories h2{
-    font: 0.7em sans-serif;
-    width: 284;
-    margin-left: 15px;
-    margin-top: 40px;
-}
+        /* all product collection */
 
-.accessories img{
-    width: 200px;
-}
-
-.accessories div{
-    display: inline-block;
-    white-space: nowrap;
-    padding: 30px;  
-}
-
-.accessories a{
-    font-weight: bolder;
-    font-size: x-large;
-    margin-left: 130px;
-}
-
-
-
-
-.Featured-3{
-    width: 200px;
-    margin: 0;
-    padding: 15px;
-}
-
-.promotion-3 h2{
-    font-weight: bolder;
-    margin-left: 20;
-    top: 390;
-}
-
-.promotion-3 p:nth-child(3){
-    margin-left: 20px;
-    top: 16;
-    font-size: small;
-    font-weight: bolder;
- }
-
- .promotion-3 p:nth-child(4){
-    margin-left: 20px;
-    top: 158;
- }
-
- .promotion-3 p:nth-child(5){
-    margin-left: 20px;
-    width: 50%;
-    top: -30;
-    font-weight: bold;
- }
-
-.promotion-3 button{
-    margin-left: 20px;
-    top: -5;
-    color: white;
-    font-size: large;
- }
-
-
-
- .banner-1{
-    position: relative;
-    top: 15;
- }
-   
-
- .slide-2{
-    width: 100%;
- }
-
-.story{
-    position: relative;
-    top: 15;
-}
-
-.story h3{
-    width: 100;
-    margin-left: 110px;
-}
-.story article{
-    line-height: 30px;
-    width: 300px;
-    margin-left: 10px;
-}
-
-footer h4{
-    font-size: 8.6;
-    top: 8px;
-}
-footer input{
-    height: 27;
-}
-
-footer button{
-    font-size: large;
-}
-
-footer p{
-    font-weight: bolder;
-    font-size: small;
-    top: -6;
-}
-
-
-.p-one{
-    font-size: large;
+ .p-one{
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
@@ -1933,14 +1747,21 @@ footer p{
     background-color: #620C0CFF;
     color: white;
     box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
+    box-sizing: border-box;margin-left: 200;
     margin-top: 10;
  }
 
 
+
+ .p-one:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+
+ }
 
  .p-two{
-    font-size: large;
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
@@ -1950,15 +1771,19 @@ footer p{
     background-color: #620C0CFF;
     color: white;
     box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
+    box-sizing: border-box;margin-left: 200;
     margin-top: 10;
  }
 
-
+.p-two:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
 
 
 .p-three{
-    font-size: large;
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
@@ -1968,22 +1793,24 @@ footer p{
     background-color: #620C0CFF;
     color: white;
     box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
+    box-sizing: border-box;margin-left: 200;
     margin-top: 10;
 }
 
-
-
-
+.p-three:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
 
 
 
 .p-four{
-    font-size: large;
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
-    width: 200;
+    width: 360;
     text-align: center;
     border-radius: 4px;
     background-color: #620C0CFF;
@@ -1995,12 +1822,19 @@ footer p{
 
 
 
+
+
+.p-four:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
 
 
 
 
 .p-five{
-    font-size: large;
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
@@ -2010,137 +1844,44 @@ footer p{
     background-color: #620C0CFF;
     color: white;
     box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
+    box-sizing: border-box;margin-left: 200;
     margin-top: 10;
 }
 
 
 
-
+.p-five:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
 
 
 
 .p-six{
-    font-size: large;
+    font-size: xx-large;
     font-family: sans-serif;
     font-weight: bolder;
     border: 2px solid black;
-    width: 200;
+    width: 258;
     text-align: center;
     border-radius: 4px;
     background-color: #620C0CFF;
     color: white;
     box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
+    box-sizing: border-box;margin-left: 150;
     margin-top: 10;
 }
 
-.dresses div p:nth-child(4){
-    margin-left: -27;
-        text-align: left;
-        color: black;
-        font-size: xx-small;
-        font-family: montserrat;
-        font-weight: bold;
-        line-height: 2;
-    
-}
 
-.tops div p:nth-last-child(2){
-    margin-left: 0;
-    text-align: left;
+
+.p-six:hover{
+    background-color: rgb(168, 100, 61);
     color: black;
-    font-size: xx-small;
-    font-family: montserrat;
-    font-weight: bold;
-    line-height: 2;
-    padding: 0.5;
-}
-
-.outerwear div p:nth-child(4){
-    margin-left: -5;
-    text-align: left;
-    color: black;
-    font-size: xx-small;
-    font-family: montserrat;
-    font-weight: bold;
-    line-height: 2;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
 }
 
 
-.activewear div p:nth-child(4){
-    margin-left: -5;
-        text-align: left;
-        color: black;
-        font-size: xx-small;
-        font-family: montserrat;
-        font-weight: bold;
-        line-height: 2;
-}
-
-
-.accessories div p:nth-child(4){
-        margin-left: -10;
-        text-align: left;
-        color: black;
-        font-size: xx-small;
-        font-family: montserrat;
-        font-weight: bold;
-        line-height: 2;
-    }
-
-.a-body{
-    position: relative;
-    top: -170;
-    box-sizing: border-box;
-    padding: -4;
-}
-
-
-
-
-
-.bottoms div p:nth-child(4){
-    margin-left: -5;
-    color: black;
-    font-size: x-small;
-    line-height: 2;
-}
-
-.catalogue section div p:nth-child(2){
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: arial;
-}
-
-.catalogue section div p:nth-child(4){
-    margin-left: 2;
-    text-align: left;
-    color: black;
-    font-size: xx-small;
-    font-family: montserrat;
-    font-weight: bold;
-    line-height: 2;
-}
-.catalogue section div{
-    padding: 5;
-}
-
-.catalogue h1{
-    font-size: 40;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
-    text-transform: uppercase;
-    border: 2px solid black;
-    border-radius: 4px;
-    width: 430;
-    background-color: #620C0CFF;
-    color: white;
-    margin-left: 70;
-    margin-top: 24;
-    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-}
 
 #t-divs div{
     padding: 10;
@@ -2162,6 +1903,36 @@ footer p{
 }
 
 
+.catalogue section div p:nth-child(2){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+.catalogue section div p:nth-child(4){
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.catalogue h1{
+    font-size: 40;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 430;
+    margin-left: 70;
+    margin-top: 24;
+}
+
+.catalogue section div {
+    padding: 10px;
+}
+
+.catalogue h1:hover{
+    background-color: rgb(168, 100, 61);
+    color: black;
+    box-shadow: 3px 3px 4px 4px #620C0CFF;
+}
+
 
 .l-home a{
     text-decoration: none;
@@ -2177,7 +1948,10 @@ footer p{
     top: 12;
 }
 
-
+.l-home a:hover{
+    background-color: #620C0CFF;
+    color: aliceblue;
+}
 
 .l-top a{
     text-decoration: none;
@@ -2193,106 +1967,73 @@ footer p{
     top: -15;
 }
 
-
-
-
-
-.catalogue h1{
-    font-size: large;
-    font-family: sans-serif;
-    font-weight: bolder;
-    border: 2px solid black;
-    width: 200;
-    text-align: center;
-    border-radius: 4px;
+.l-top a:hover{
     background-color: #620C0CFF;
     color: white;
-    box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
-    box-sizing: border-box;margin-left: 80;
-    margin-top: 10;
 }
 
-.catalogue div p:nth-child(4){
-    margin-left: -27;
-    text-align: left;
-    color: black;
-    font-family: montserrat;
-    font-weight: bold;
-    line-height: 2;
-    width: 70%;
-    font-size: xx-small;
-}
 
-.a-logo{
-    margin-left: 120;
-}
 
 .about-us{
-    margin-left: 10;
-    width: 95%;
-    line-height: 2;
+    line-height: 1.3;
+    width: 80%;
+    text-align: center;
+    margin-left: 44px;
+    font-family: sans-serif;
+    margin-top: 23px;
 }
 
-.info p {
-   top: -4;
-   margin-left: 19;
+
+.info p{
+    width: 90%;
+    margin-left: 34;
+    font-family: monospace;
+    font-weight: bolder;
 }
 
+
+.info form{
+    text-align: center;
+
+}
 
 .info input{
-    margin-left: -120;
+position: relative;
+margin-left: -290px;
 }
 
-.info form textarea{
-   margin-left: 190;
-   height: 100px;
-   width: 100px;
-   top: -100;
+.info input::placeholder{
+    text-align: center;
+    font-size: 16;
+    text-transform: capitalize;
+}
+
+.info textarea{
+position: relative;
+top: -90;
+margin-top: -20;
+margin-left: 230;
 }
 
 .info button{
-    margin-left: 170;
-    top: -90;
+    font-size: large;
+    background-color: #620C0CFF;
+    color: aliceblue;
+    text-transform: capitalize;
+    position: relative;
+    top: -60;
+    margin-left: 140;
+}
+
+.info{
+    position: relative;
+    top: 50;
 }
 
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.a-logo{
+    width: 100;
+    margin-left: 200;
 }
 
 
@@ -2320,62 +2061,661 @@ footer p{
 
 
 
+}
 
 
 
 
+    @media screen and (max-width: 355px) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        nav ul{
+            position: relative;
+            left: -100;
+            top: -20;
+         }
+        nav li{
+            padding: .5;
+            font-size: x-small;
+        }
+    
+    
+        .Dresses h2{
+            font: 0.7em sans-serif;
+            font-weight: bolder;
+            width: 200;
+            margin-left: 60px;
+        }
+        
+        .Dresses div{
+            display: inline-block;
+            white-space: nowrap;
+            padding: 30px;  
+        }
+    
+        .Dresses a{
+            font-size: x-large;
+            margin-left: 130px;
+        
+        }
+    
+    
+        .tops h2{
+            font: 0.7em sans-serif;
+            font-weight: bolder;
+            width: 284;
+            margin-left: 19px;
+            margin-top: 40px;
+        }
+        
+        .tops div{
+            display: inline-block;
+            white-space: nowrap;
+            padding: 30px;  
+        }
+    
+        .tops a{
+            font-size: x-large;
+            margin-left: 130px;
+        
+        }   
+    
+    
+    .Featured-1 h2{
+        margin-left: 70;
+        top: 230;
+     }
+     .Featured-1 p:nth-child(3){
+        margin-left: 70px;
+        top: -50;
+        font-size: small;
+     }
+    
+     .Featured-1 p:nth-child(4){
+        margin-left: 70px;
+        position: relative;
+        top: -60;
+     }
+    
+     .Featured-1 p:nth-child(5){
+        margin-left: 70px;
+        width: 50%;
+        top: -70;
+        font-weight: bold;
+        font-family: monospace;
+     }
+    
+    .Featured-1 button{
+        margin-left: 70px;
+        top: -70;
+        font-size: small;
+        width: 69;
+     }
+    
+    
+     .product-of-the-week{
+        margin: 0;
+        padding: 15;
+        position: relative;
+        top: -70;
+        margin-left: 36px;
+     }
+    
+    
+    
+    
+     .outerwear h2{
+        font: 0.7em sans-serif;
+        font-weight: bolder;
+        width: 290;
+        margin-left: 19px;
+        margin-top: 40px;
+    }
+    
+    .outerwear div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+    
+    .outerwear a{
+        font-size: x-large;
+        margin-left: 130px;
+    
+    }  
+    
+    
+    .bottoms h2{
+        font: 0.7em sans-serif;
+        font-weight: bolder;
+        width: 325;
+        margin-left: 5px;
+        margin-top: 40px;
+    }
+    
+    .bottoms div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+    
+    .bottoms a{
+        font-size: x-large;
+        margin-left: 130px;
+    
+    }  
+    
+    
+    
+    .featured-2{
+        padding: 15px;
+        margin: top 30px;;
+    }
+    
+    .promotion-2 h2{
+        margin-left: 20;
+        top: 300;
+    }
+    .promotion-2 p:nth-child(3){
+        margin-left: 20px;
+        top: 15px;
+        font-size: small;
+    }
+    .promotion-2 p:nth-child(4){
+        margin-left: 20px;
+        top: 170;
+    }
+    
+    .promotion-2 p:nth-child(5){
+        margin-left:20px;
+        width: 50%;
+        top: -30;
+    }
+    .promotion-2 button{
+        margin-left: 20px;
+        top: -4;
+        font-size: large;
+    }
+    
+    
+    .activewear{
+        position: relative;
+    margin-top: 230;
+    }
+    
+    
+    .activewear h2{
+        font: 0.65em sans-serif;
+        font-weight: bolder;
+        width: 300;
+        margin-left: 10px;
+        margin-top: -180;
+    }
+    
+    .activewear img{
+        width: 200px;
+    }
+    
+    .activewear div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+    
+    .activewear a{
+        font-size: x-large;
+        margin-left: 130px;
+    }
+    
+    
+    
+    
+    
+    .accessories h2{
+        font: 0.7em sans-serif;
+        width: 284;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+    
+    .accessories img{
+        width: 200px;
+    }
+    
+    .accessories div{
+        display: inline-block;
+        white-space: nowrap;
+        padding: 30px;  
+    }
+    
+    .accessories a{
+        font-weight: bolder;
+        font-size: x-large;
+        margin-left: 130px;
+    }
+    
+    
+    
+    
+    .Featured-3{
+        width: 200px;
+        margin: 0;
+        padding: 15px;
+    }
+    
+    .promotion-3 h2{
+        font-weight: bolder;
+        margin-left: 20;
+        top: 390;
+    }
+    
+    .promotion-3 p:nth-child(3){
+        margin-left: 20px;
+        top: 16;
+        font-size: small;
+        font-weight: bolder;
+     }
+    
+     .promotion-3 p:nth-child(4){
+        margin-left: 20px;
+        top: 158;
+     }
+    
+     .promotion-3 p:nth-child(5){
+        margin-left: 20px;
+        width: 50%;
+        top: -30;
+        font-weight: bold;
+     }
+    
+    .promotion-3 button{
+        margin-left: 20px;
+        top: -5;
+        color: white;
+        font-size: large;
+     }
+    
+    
+    
+     .banner-1{
+        position: relative;
+        top: 15;
+     }
+       
+    
+     .slide-2{
+        width: 100%;
+     }
+    
+    .story{
+        position: relative;
+        top: 15;
+    }
+    
+    .story h3{
+        width: 100;
+        margin-left: 110px;
+    }
+    .story article{
+        line-height: 30px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    
+    footer h4{
+        font-size: 8.6;
+        top: 8px;
+    }
+    footer input{
+        height: 27;
+    }
+    
+    footer button{
+        font-size: large;
+    }
+    
+    footer p{
+        font-weight: bolder;
+        font-size: small;
+        top: -6;
+    }
+    
+    
+    .p-one{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+     }
+    
+    
+    
+     .p-two{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+     }
+    
+    
+    
+    
+    .p-three{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .p-four{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .p-five{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .p-six{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+    }
+    
+    .dresses div p:nth-child(4){
+        margin-left: -27;
+            text-align: left;
+            color: black;
+            font-size: xx-small;
+            font-family: montserrat;
+            font-weight: bold;
+            line-height: 2;
+        
+    }
+    
+    .tops div p:nth-last-child(2){
+        margin-left: 0;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+        padding: 0.5;
+    }
+    
+    .outerwear div p:nth-child(4){
+        margin-left: -5;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+    }
+    
+    
+    .activewear div p:nth-child(4){
+        margin-left: -5;
+            text-align: left;
+            color: black;
+            font-size: xx-small;
+            font-family: montserrat;
+            font-weight: bold;
+            line-height: 2;
+    }
+    
+    
+    .accessories div p:nth-child(4){
+            margin-left: -10;
+            text-align: left;
+            color: black;
+            font-size: xx-small;
+            font-family: montserrat;
+            font-weight: bold;
+            line-height: 2;
+        }
+    
+    .a-body{
+        position: relative;
+        top: -170;
+        box-sizing: border-box;
+        padding: -4;
+    }
+    
+    
+    
+    
+    
+    .bottoms div p:nth-child(4){
+        margin-left: -5;
+        color: black;
+        font-size: x-small;
+        line-height: 2;
+    }
+    
+    .catalogue section div p:nth-child(2){
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: arial;
+    }
+    
+    .catalogue section div p:nth-child(4){
+        margin-left: 2;
+        text-align: left;
+        color: black;
+        font-size: xx-small;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+    }
+    .catalogue section div{
+        padding: 5;
+    }
+    
+    .catalogue h1{
+        font-size: 40;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: center;
+        text-transform: uppercase;
+        border: 2px solid black;
+        border-radius: 4px;
+        width: 430;
+        background-color: #620C0CFF;
+        color: white;
+        margin-left: 70;
+        margin-top: 24;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+    }
+    
+    #t-divs div{
+        padding: 10;
+    }
+    #a-divs div{
+        padding: 10;
+    }
+    #b-divs div{
+        padding: 10;
+    }
+    #ac-divs div{
+        padding: 8;
+    }
+    #d-divs div{
+        padding: 10;
+    }
+    #-divs div{
+        padding: 10;
+    }
+    
+    
+    
+    .l-home a{
+        text-decoration: none;
+        color: white;
+        font-family: arial;
+        font-weight: bolder;
+        font-size: x-large;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin-left: 100px;
+        background-color: #620C0CFF;
+        position: relative;
+        top: 12;
+    }
+    
+    
+    
+    .l-top a{
+        text-decoration: none;
+        color: white;
+        font-family: arial;
+        font-weight: bolder;
+        font-size: x-large;
+        border: 2px solid black;
+        border-radius: 4px;
+        margin-left: -100px;
+        background-color: #620C0CFF;
+        position: relative;
+        top: -15;
+    }
+    
+    
+    
+    
+    
+    .catalogue h1{
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        border: 2px solid black;
+        width: 200;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #620C0CFF;
+        color: white;
+        box-shadow: 3px 3px 4px 4px rgb(168, 100, 61);
+        box-sizing: border-box;margin-left: 80;
+        margin-top: 10;
+    }
+    
+    .catalogue div p:nth-child(4){
+        margin-left: -27;
+        text-align: left;
+        color: black;
+        font-family: montserrat;
+        font-weight: bold;
+        line-height: 2;
+        width: 70%;
+        font-size: xx-small;
+    }
+    
+    .a-logo{
+        margin-left: 120;
+    }
+    
+    .about-us{
+        margin-left: 10;
+        width: 95%;
+        line-height: 2;
+    }
+    
+    .info p {
+       top: -4;
+       margin-left: 19;
+    }
+    
+    
+    .info input{
+        margin-left: -120;
+    }
+    
+    .info form textarea{
+       margin-left: 190;
+       height: 100px;
+       width: 100px;
+       top: -100;
+    }
+    
+    .info button{
+        margin-left: 170;
+        top: -90;
+    }
+    
+    
+    
+    }
+    
