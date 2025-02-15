@@ -70,7 +70,7 @@ header p {
 nav{
     background-color: #48cae4;
     position: fixed;
-    top: 205px;
+    top: 200px;
     width: 100%;
     z-index: 1;
 }
@@ -151,6 +151,7 @@ button {
 .tops h2{
     text-transform: capitalize;
     font-variant: small-caps;
+    font-size: 1.1em;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid black;
     color: white;
@@ -161,7 +162,6 @@ button {
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
     top: 10px;
-    font-size: 1.2em;
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -225,6 +225,26 @@ button {
 .outerwear h2{
     text-transform: capitalize;
     font-variant: small-caps;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    color: white;
+    background-color: #023e8a;
+    border-radius: 3px;
+    width: 26.5em;
+    margin: auto;
+    box-shadow: 3px 3px 4px 4px #0096c7;
+    position: relative;  
+    top: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+.bottoms h2{
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 1.1em;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid black;
     color: white;
@@ -235,26 +255,6 @@ button {
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
     top: 10px;
-    font-size: 1.2em;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-
-.bottoms h2{
-    text-transform: capitalize;
-    font-variant: small-caps;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid black;
-    color: white;
-    background-color: #023e8a;
-    border-radius: 3px;
-    width: 28em;
-    margin: auto;
-    box-shadow: 3px 3px 4px 4px #0096c7;
-    position: relative;  
-    top: 10px;
-    font-size: 1.2em;
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -268,7 +268,7 @@ button {
     color: white;
     background-color: #023e8a;
     border-radius: 3px;
-    width: 7em;
+    width: 6.5em;
     margin: auto;
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
@@ -320,12 +320,12 @@ button {
     color: white;
     background-color: #023e8a;
     border-radius: 3px;
-    width: 32em;
+    width: 30.2em;
     margin: auto;
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
     top: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     max-width: 100%;
     box-sizing: border-box; 
 }
@@ -344,12 +344,12 @@ button {
     color: white;
     background-color: #023e8a;
     border-radius: 3px;
-    width: 28em;
+    width: 27em;
     margin: auto;
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
     top: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     max-width: 100%;
     box-sizing: border-box; 
 }
@@ -372,7 +372,7 @@ button {
     color: white;
     background-color: #023e8a;
     border-radius: 3px;
-    width: 10em;
+    width: 8.5em;
     margin: auto;
     box-shadow: 3px 3px 4px 4px #0096c7;
     position: relative;  
@@ -966,6 +966,12 @@ nav ul{
 
 nav ul li{
     flex: 1 1 0;
+}
+
+.dresses div, .tops div, .outerwear div, .bottoms div, .active-wear div, .accessories div{
+    display: inline-block; 
+    margin: 10px;
+    padding: 35px; 
 }
 
 .dresses  h2, .tops h2, .active-wear h2, .outerwear h2, .accessories h2, .bottoms h2{
